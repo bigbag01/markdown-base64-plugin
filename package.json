@@ -1,0 +1,22 @@
+{
+  "name": "typora-image-base64",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packet": "electron-packager ./ --platform='darwin' --arch=x64 --icon='application.icns' --app-version='0.0.1'"
+  },
+  "keywords": [
+    "typora-plugin",
+    "electron"
+  ],
+  "author": "BeigeZhang <beigezhang001@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^2.0.3",
+    "electron-builder": "^20.24.5",
+    "electron-clipboard-watcher": "^1.0.1",
+    "electron-packager": "^12.1.0"
+  }
+}

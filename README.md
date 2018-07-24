@@ -1,0 +1,6 @@
+# markdown-base64-plugin
+### 作用
+​	在markdown中插入图片时，直接插入引用其base64编码的`<img>`元素，无需考虑图片路径问题。
+
+### 使用方法
+​	打开app，点击菜单栏中<img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABKUlEQVQ4jZXSvyvFURjH8ZfrikR+bSwGg6TIQiZsyMbA4g9gl9FgMSgDi2IW/gAZTFZkUgyITTflZykM59x8+/a9F586nVOf87zP85zn4UeNOMBXxrrBAHbRm4iRS5zr0KW8+rGKzizAXzWM9SLkv4CKuI9gA7351IVywA/cxfMXOrBYBLRhLhr3qEVTIrgG9ZhHVTqldqzgGft4RAMmMYNqfOIB71mprWELQxFwFfchbMtua3I5wQT2UsYexlAoB8gJ/S+gJ5VZTyznJSvtonKx9hacprwzNMcHSqpSGIg+bAq/n8cRloRPHhfGvCTgAqPoxo4w75fRO8Y1BoXOlFQrloUZuBdqv8VU9KdjqZldKKotBifNO8xiAW+/ARpxmHHhCa8lgs+/AR5fY41Sawz3AAAAAElFTkSuQmCC' />，选择'show preview'，出现一个空白窗口。然后对于要插入markdown的图片（本地的，网上的都可以），直接`ctrl+c`复制，空白窗口会显示被复制的图片的样子，直接在markdown文本中使用`ctrl+v` 此时粘贴下来的就是引用图片base64编码的img元素
